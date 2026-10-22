@@ -1,0 +1,14 @@
+{
+  "iterations": 100000,
+  "l2_lambda": 0.02,
+  "unregularized_final_norm": 51.213835510313295,
+  "l2_final_norm": 2.271623687375843,
+  "unregularized_final_loss": 0.014646459700533222,
+  "l2_final_loss": 0.33084592825313236,
+  "unregularized_last_angle_deg": 0.0036892264639932053,
+  "l2_last_angle_deg": 0.0,
+  "unregularized_probability_range": [
+    9.493608088987532e-29,
+    1.0
+  ]
+}

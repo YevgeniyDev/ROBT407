@@ -1,0 +1,33 @@
+{
+  "repeats": 100,
+  "reference_loss": 0.3942563716025621,
+  "methods": {
+    "Batch GD": {
+      "median_seconds": 0.02267014999233652,
+      "mean_seconds": 0.02448135699960403,
+      "se_seconds": 0.0007515974818117318,
+      "median_steps": 352.0,
+      "runs_reached": 100,
+      "runs": 100,
+      "largest_loss_gap": 9.72072201899099e-07
+    },
+    "SGD": {
+      "median_seconds": 0.0902230499923462,
+      "mean_seconds": 0.09363930699822959,
+      "se_seconds": 0.0014203156416713052,
+      "median_steps": 109.0,
+      "runs_reached": 100,
+      "runs": 100,
+      "largest_loss_gap": 9.932989375460721e-07
+    },
+    "L-BFGS": {
+      "median_seconds": 0.0023775000008754432,
+      "mean_seconds": 0.0024428409987012857,
+      "se_seconds": 2.4347764710583545e-05,
+      "median_steps": 13.0,
+      "runs_reached": 100,
+      "runs": 100,
+      "largest_loss_gap": 0.0
+    }
+  }
+}

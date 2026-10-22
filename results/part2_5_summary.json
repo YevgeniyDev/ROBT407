@@ -1,0 +1,31 @@
+{
+  "dataset": "fetch_california_housing",
+  "seed": 407,
+  "train_size": 16512,
+  "test_size": 4128,
+  "train_mse": 0.5117824943133065,
+  "test_mse": 0.5909895116981619,
+  "test_r2": 0.56624878857094,
+  "selected_training_feature": "MedInc",
+  "selected_feature_training_pearson_r": 0.6905717772753022,
+  "standardized_coefficients": {
+    "bias": 2.0714381486190576,
+    "MedInc": 0.8522191373687891,
+    "HouseAge": 0.11898560528415103,
+    "AveRooms": -0.27199899895650353,
+    "AveBedrms": 0.3156859205631677,
+    "Population": -0.001126649216721008,
+    "AveOccup": -0.04724801048862195,
+    "Latitude": -0.8982113631128774,
+    "Longitude": -0.8722319492675422
+  },
+  "simple_regression_coefficients": {
+    "intercept": 0.4519020542175021,
+    "slope": 0.417947301640513
+  },
+  "software": {
+    "numpy": "2.5.1",
+    "matplotlib": "3.11.2",
+    "scikit_learn_data_loader": "1.9.0"
+  }
+}

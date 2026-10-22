@@ -1,0 +1,31 @@
+{
+  "sklearn_version": "1.9.0",
+  "unregularized_max_coefficient_difference": 4.440892098500626e-16,
+  "unregularized_loss_difference": 1.1102230246251565e-16,
+  "regularized": [
+    {
+      "lambda": 0.0005,
+      "C": 3.144654088050314,
+      "max_coefficient_difference": 2.0655521737467097e-10,
+      "objective_difference": 0.0
+    },
+    {
+      "lambda": 0.005,
+      "C": 0.31446540880503143,
+      "max_coefficient_difference": 1.186550857568136e-15,
+      "objective_difference": 2.7755575615628914e-17
+    },
+    {
+      "lambda": 0.05,
+      "C": 0.031446540880503145,
+      "max_coefficient_difference": 2.498001805406602e-16,
+      "objective_difference": 0.0
+    },
+    {
+      "lambda": 0.5,
+      "C": 0.0031446540880503146,
+      "max_coefficient_difference": 5.551115123125783e-17,
+      "objective_difference": 0.0
+    }
+  ]
+}
